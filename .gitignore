@@ -15,8 +15,6 @@ Thumbs.db
 .env.*
 !.env.example
 !.env.test
-/src/lib/firebaseConfig.js
-
 
 # Vite
 vite.config.js.timestamp-*

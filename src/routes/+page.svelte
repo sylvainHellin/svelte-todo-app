@@ -5,8 +5,8 @@
     import Welcome from "../components/Welcome.svelte";
     import TodoList from "../components/todoList.svelte";
 
-    // import {firebaseConfig} from "../lib/firebaseConfig.js"
-    import {firebaseConfig} from "../lib/serverFirebaseConfig.js"
+    import {firebaseConfig} from "../lib/firebaseConfig.js"
+    // import {firebaseConfig} from "../lib/serverFirebasConfig.js"
     import { initializeApp } from "firebase/app";
     import { getFirestore } from "firebase/firestore";
 
